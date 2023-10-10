@@ -1,0 +1,38 @@
+.border1{
+    position: absolute;
+    right: 47.3%;
+    bottom: 87%;
+}
+.border1 a{
+    text-align: center;
+}
+div.border2{
+    position: absolute;
+    bottom: 35%;
+    right: 34%;
+    width: 300px;
+}
+.bc_cl{
+    height: 900px;
+    background-image:linear-gradient(rgba(77, 0, 179, 0.966), rgb(255, 159, 255), white) ;
+}
+div.bc_cl{
+    text-align: center;
+}
+#center{
+    position: absolute;
+    bottom: 1;
+    left: 0;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
